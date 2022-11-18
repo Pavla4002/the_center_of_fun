@@ -147,8 +147,31 @@ font-size: 16px;
 }
 .allBlockConcert{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .blockConcert{
+    margin-top: 4%;
+    width: 27vw;
+    height: 60vh;
     display: flex;
     flex-direction: column;
+    border: solid 4px #979477;
+}
+.blockConcert img{
+    width: 100%;
+}
+.infoConcert{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+.infoConcert .timeAndDay{
+    padding: 0 15%;
+width: 100%;
+display: flex;
+justify-content: space-between;
 }
