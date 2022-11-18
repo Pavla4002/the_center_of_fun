@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,900;1,200;1,300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+.mainBlock{
+    width: 60%;
+    margin: 0 auto;
+}
+.navigationList1_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+.navigationList1_1 img{
+    width: 247px;
+    height:119px;
+}
+.navigationList1_1 li a{
+    width: 100%;
+font-family: "Raleway";
+color: black;
+font-size: 16px;
+}
+.navigationList1_1 li:nth-child(2) a{
+    font-weight: 900;
+}
+.businessCard{
+    width:100%;
+    margin: 0 auto;
+    /* border: solid 4px #979477; */
+    height: 42.75vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    position: relative;
+    box-shadow: -5px 5px 7px #979477;
+}
+.textBuisnessCard{
+    padding: 2% 0 2% 3%;
+    width: 100%;
+    font-family: "Raleway";
+}
+.imgBuisnessCard{
+    background-image: url(/img/imgBuisnessCard.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position-x: right;
+    background-position: 40% 50%;
+}
+.textBuisnessCard span{
+    left: 15%;
+    font-size: 45px;
+    font-family:"Raleway" ;
+    font-weight:400;
+}
+.textBuisnessCard ul{
+    margin-top: 3%;
+}
+.textBuisnessCard ul li{
+    font-size:27px;
+    line-height:50px;
+}
+.textInfoMuza{
+    margin-top: 3%;
+    font-size: 20px;
+    font-family:"Raleway" ;
+}
+.titleLessonsMuza{
+    margin-top: 3%;
+    width: 100%;
+    font-size: 30px; 
+    font-family:"Raleway" ;
+    text-align: center;
+}
+.allBlockLessonsMuza{
+    padding-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+.blockLesson{
+    margin-top: 3%;
+    width: 15vw;
+    height:14vw;
+    position: relative;
+    box-shadow: 5px 5px 7px #979477, -5px -5px 7px #979477a9;
+}
+.blockLesson:hover{
+    box-shadow: none;
+}
+.blockLesson img{
+    width: 15vw;
+    height:14vw;
+}
+.blockLesson .nado{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.548);
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+}
+.nado{
+    padding: 3%;
+    font-size: 25px;
+    font-family:"Raleway" ;
+    text-shadow: -10px 7px 10px #979477b6;
+}
+.bottom{
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    background-color: #979477;
+}
+.bottom ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom ul li a{
+    color: black;
+    font-family:"Raleway" ;
+}
+.bottom ul li:nth-child(1) a{
+    font-weight: bold;
+}
+#nav1_2{
+    font-weight: normal;
+}
+#nav2_2{
+    font-weight: bold;
+}
+.allBlockConcert{
+    width: 100%;
+}
+.blockConcert{
+    display: flex;
+    flex-direction: column;
+}
