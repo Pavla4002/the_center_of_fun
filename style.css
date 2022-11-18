@@ -50,7 +50,7 @@ font-size: 16px;
     font-family: "Raleway";
 }
 .imgBuisnessCard{
-    background-image: url(/img/imgBuisnessCard.png);
+    background-image: url(./img/imgBuisnessCard.png);
     width: 100%;
     background-repeat: no-repeat;
     height: 100%;
