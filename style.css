@@ -115,7 +115,7 @@ font-size: 16px;
 .nado{
     padding: 3%;
     font-size: 25px;
-    font-family:"Raleway" ;
+    font-family:"Raleway";
     text-shadow: -10px 7px 10px #979477b6;
 }
 .bottom{
@@ -134,7 +134,7 @@ font-size: 16px;
 }
 .bottom ul li a{
     color: black;
-    font-family:"Raleway" ;
+    font-family:"Raleway";
 }
 .bottom ul li:nth-child(1) a{
     font-weight: bold;
@@ -167,11 +167,85 @@ font-size: 16px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 4%;
+    padding: 7% 4%;
+    font-family:"Raleway";
+    font-size: 25px;
 }
 .infoConcert .timeAndDay{
-    padding: 0 15%;
-width: 100%;
-display: flex;
-justify-content: space-between;
+    padding: 3% 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size:25px;
+    font-family:"Raleway";
+}
+.infoConcert span:nth-child(1){
+padding-bottom: 3%;
+}
+.blockLessonsTimeDay{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.blockLessonTimeDay{
+    margin-top: 4%;
+    width: 100%;
+    height: 17vh;
+    font-size: 20px;
+    border: #979477 solid 3px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+}
+#title_letter3{
+    font-size: 21px;
+    font-family:"Raleway";
+    margin-top: 3%;
+    width: 100%;
+}
+#textMaininfo{
+    display: flex;
+    flex-direction: column;
+    line-height: 4vh;
+}
+#timeAndDay{
+    display: flex;
+    flex-direction: column;
+    line-height: 4vh;
+}
+.blockLessonTimeDay:hover{
+background-color: #9794776c;
+}
+#nav1_3{
+    font-weight: normal;
+}
+#nav3_3{
+    font-weight: bold;
+}
+body::-webkit-scrollbar {
+    width: 18px;               
+}
+body::-webkit-scrollbar-track {
+    background: #9794776c;        
+}
+body::-webkit-scrollbar-thumb {
+    background-color: white;    
+   /* border-radius: 20px; */
+    border: 3px solid #979477; 
+}
+#nav4_4{
+    font-weight: bold;
+}
+#nav1_4{
+    font-weight: normal;
+}
+.socialNetwork{
+    margin-top: 4%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
