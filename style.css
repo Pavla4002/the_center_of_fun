@@ -682,6 +682,12 @@ font-family:"Raleway";
         font-family:"Raleway";
         font-size: 14px;
     }
+    #timeAndDay{
+        font-size: 18px;
+    }
+    #textMaininfo{
+        font-size: 18px;
+    }
 }
 @media screen and (max-width:990px){
     .mainBlock{
@@ -957,7 +963,7 @@ font-family:"Raleway";
     .blockConcert{
         margin-top: 5%;
         width: 30vw;
-        height: 35vh;
+        height: 45vh;
         display: flex;
         flex-direction: column;
         /* border: solid 4px #979477; */
@@ -1207,7 +1213,7 @@ font-family:"Raleway";
     .blockConcert{
         margin-top: 5%;
         width: 40vw;
-        height: 36vh;
+        height: 42vh;
         display: flex;
         flex-direction: column;
         /* border: solid 4px #979477; */
@@ -1363,7 +1369,7 @@ font-family:"Raleway";
     .blockConcert{
         margin-top: 5%;
         width: 43vw;
-        height: 32vh;
+        height: 38vh;
         display: flex;
         flex-direction: column;
         /* border: solid 4px #979477; */
@@ -1402,6 +1408,37 @@ font-family:"Raleway";
         font-family:"Raleway";
         text-shadow: -10px 7px 10px #979477b6;
     }
+    .blockLessonsTimeDay{
+        width: 100%;
+    }
+    .blockLessonTimeDay{
+        margin-top: 4%;
+        width: 100%;
+        height: 15vh;
+        border: #979477 solid 3px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4%;
+    }
+    #title_letter3{
+        font-size: 14px;
+        font-family:"Raleway";
+        margin-top: 3%;
+        width: 100%;
+    }
+    #textMaininfo{
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        line-height: 3vh;
+    }
+    #timeAndDay{
+        display: flex;
+        flex-direction: column;
+        line-height: 3vh;
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 376px){
@@ -1418,16 +1455,7 @@ font-family:"Raleway";
         width: 100%;
     font-family: "Raleway";
     color: black;
-    font-size: 10px;
-    }
-    .blockConcert{
-        margin-top: 5%;
-        width: 43vw;
-        height: 40vh;
-        display: flex;
-        flex-direction: column;
-        /* border: solid 4px #979477; */
-        box-shadow: 5px 5px 7px #979477, -5px -5px 7px #979477a9;
+    font-size: 9px;
     }
     .infoConcert{
         width: 100%;
@@ -1484,7 +1512,7 @@ font-family:"Raleway";
     .blockConcert{
         margin-top: 5%;
         width: 42vw;
-        height: 28vh;
+        height: 35vh;
         display: flex;
         flex-direction: column;
         /* border: solid 4px #979477; */
@@ -1527,5 +1555,18 @@ font-family:"Raleway";
         justify-content: space-between;
         font-size:14px;
         font-family:"Raleway";
+    }
+    .textBuisnessCard span{
+        left: 15%;
+        font-size: 14px;
+        font-family:"Raleway" ;
+        font-weight:400;
+    }
+    .textBuisnessCard ul{
+        margin-top: 3%;
+    }
+    .textBuisnessCard ul li{
+        font-size:12px;
+        line-height:20px;
     }
 }
