@@ -88,7 +88,7 @@ font-size: 16px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 .blockLesson{
     margin-top: 3%;
@@ -957,7 +957,7 @@ font-family:"Raleway";
     .blockConcert{
         margin-top: 5%;
         width: 30vw;
-        height: 42vh;
+        height: 35vh;
         display: flex;
         flex-direction: column;
         /* border: solid 4px #979477; */
@@ -1207,7 +1207,7 @@ font-family:"Raleway";
     .blockConcert{
         margin-top: 5%;
         width: 40vw;
-        height: 43vh;
+        height: 36vh;
         display: flex;
         flex-direction: column;
         /* border: solid 4px #979477; */
@@ -1363,6 +1363,66 @@ font-family:"Raleway";
     .blockConcert{
         margin-top: 5%;
         width: 43vw;
+        height: 32vh;
+        display: flex;
+        flex-direction: column;
+        /* border: solid 4px #979477; */
+        box-shadow: 5px 5px 7px #979477, -5px -5px 7px #979477a9;
+    }
+    .infoConcert{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 4%;
+        font-family:"Raleway";
+        font-size: 12px;
+    }
+    .ticket{
+        position: absolute;
+        bottom: 3.5%;
+        right: 65%;
+        font-size: 14px;
+     }
+    .cost{
+        position: absolute;
+     bottom: 2%;
+     right: 4%;
+        width: 50%;
+        height: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        background-color: #979477;
+        color: white;
+    }
+    .nado{
+        padding: 3%;
+        font-size: 9.5px;
+        font-family:"Raleway";
+        text-shadow: -10px 7px 10px #979477b6;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .navigationList1_1{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 2%;
+        height: 10vh;
+    }
+    .navigationList1_1 li a{
+        width: 100%;
+    font-family: "Raleway";
+    color: black;
+    font-size: 10px;
+    }
+    .blockConcert{
+        margin-top: 5%;
+        width: 43vw;
         height: 40vh;
         display: flex;
         flex-direction: column;
@@ -1396,5 +1456,76 @@ font-family:"Raleway";
         background-color: #979477;
         color: white;
     }
-
+    .nado{
+        padding: 3%;
+        font-size: 9.5px;
+        font-family:"Raleway";
+        text-shadow: -10px 7px 10px #979477b6;
+    }
+    .bottom ul li a{
+        color: black;
+        font-family:"Raleway";
+        font-size: 10px;
+    }
+    .bottom_4{
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        font-size: 10px;
+    }
+    .allBlockConcert{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .blockConcert{
+        margin-top: 5%;
+        width: 42vw;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        /* border: solid 4px #979477; */
+        box-shadow: 5px 5px 7px #979477, -5px -5px 7px #979477a9;
+    }
+    .blockConcert img{
+        width: 100%;
+    }
+    .infoConcert{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 4%;
+        font-family:"Raleway";
+        font-size: 12px;
+    }
+    .ticket{
+        position: absolute;
+        bottom: 3.5%;
+        right: 65%;
+        font-size: 12px;
+     }
+    .cost{
+        position: absolute;
+     bottom: 2%;
+     right: 4%;
+        width: 50%;
+        height: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        background-color: #979477;
+        color: white;
+    }
+    .infoConcert .timeAndDay{
+        padding: 3% 15%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size:14px;
+        font-family:"Raleway";
+    }
 }
